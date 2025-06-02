@@ -8,7 +8,7 @@ $dsn = "mysql:host=$host;dbname=$dbName";
 $connection = new PDO($dsn,$user,$pass);
 
 if($connection){
-    echo "sucess";
+    echo "sucessfull";
 }else{
     echo "unsucessfull";
 }
